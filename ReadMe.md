@@ -145,7 +145,7 @@ To train the Seq2Seq model with different RNN cell types, use the `train.py` scr
 Example command to run the training script:
 
 ```bash
-python train_vanilla.py -dp 'your/dataset/path/up/to/aksharantar_sampled' -lg 'hin'
+python train_vanilla.py -d 'your/dataset/path/up/to/aksharantar_sampled' -l 'hin'
 ```
 
 ---
@@ -319,6 +319,6 @@ These metrics provide insights into the Seq2Seq model's performance during train
 ## Example Usage
 
 ```bash
-python train_attention.py -dp 'your/dataset/path/up/to/aksharantar_sampled' -lg 'hin'
+python train_attention.py -d 'your/dataset/path/up/to/aksharantar_sampled' -l 'hin'
 ```
 
