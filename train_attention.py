@@ -968,17 +968,6 @@ def evaluate(preprocessed_data,trained_model):
   accuracy = cal * 100
   print(f'Test Accuracy Word Level : {accuracy}, Correctly Predicted : {correct_prediction}')
 
-  # Prepare a dictionary for logging predictions
-  log = {'Word': words, 'Translation' : translations, 'Prediction' : prediction, 'Result' : results}
-  path = '/kaggle/working/predictions_vanilla.csv'
-
-  # Create a DataFrame from the logging dictionary and save it as a CSV file
-  data_frame = pd.DataFrame(log)
-  data_frame.to_csv(path, header = True, index = False)
-  # Optionally display the DataFrame (for debugging or verification)
-  pd.DataFrame(log)
-
-
 #Function for the prediction in heatmaps
 def predict(model, word, preprocessed_data, params):
     # Determine the maximum length for the input sequence
