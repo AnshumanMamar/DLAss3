@@ -124,7 +124,7 @@ To train the Seq2Seq model with different RNN cell types, use the `train.py` scr
 | ----------------------------- | ------------------------------------------------------------------------ | ------------------------------------------- |
 | -d, --datapath                | data folder path                                                         | '/kaggle/input/dl-ass-3/aksharantar_sampled'|
 | -l, --lang                    | Language for which training is to be done                                | 'hin'                                       |
-| -emb_size , --embedding_size  | Size of embedding                                                        | 256                                         |
+| -emb_size , --embadding_size  | Size of embedding                                                        | 256                                         |
 | -hdn_size, --hidden_size      | Size of hidden                                                           | 512                                         |
 | -nl, --num_layers             | Number of  the layers                                                    | 2                                           |
 | -cell, --cell_type            | Cell type :RNN, LSTM or GRU                                              | 'LSTM'                                      |
@@ -298,7 +298,7 @@ These metrics provide insights into the Seq2Seq model's performance during train
 | ----------------------------- | ------------------------------------------------------------------------ | ------------------------------------------- |
 | -d, --datapath                | data folder path                                                         | '/kaggle/input/dl-ass-3/aksharantar_sampled'|
 | -l, --lang                    | Language for which training is to be done                                | 'hin'                                       |
-| -emb_size , --embedding_size  | Size of embedding                                                        | 256                                         |
+| -emb_size , --embadding_size  | Size of embedding                                                        | 256                                         |
 | -hdn_size, --hidden_size      | Size of hidden                                                           | 512                                         |
 | -nl, --num_layers             | Number of  the layers                                                    | 2                                           |
 | -cell, --cell_type            | Cell type :RNN, LSTM or GRU                                              | 'LSTM'                                      |
